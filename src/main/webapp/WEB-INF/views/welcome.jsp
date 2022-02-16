@@ -28,8 +28,8 @@
                             <a class="navbar-brand" href="#" style="margin-right:-8px; margin-top:-5px;">
                                 <img alt="Brand" src="${contextPath}/resources/Images/user/logo.png" width="30px" height="30px">
                             </a>
-                            <a class="navbar-brand" href="#">VisualPath</a>
-                            <i class="brand_network"><small><small>VP* Network</small></small></i>
+                            <a class="navbar-brand" href="#">Infy</a>
+                            <!-- <i class="brand_network"><small><small>VP* Network</small></small></i> -->
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
@@ -122,7 +122,7 @@
                     <span>
                         <h1 class="panel-title pull-left" style="font-size:30px;">${pageContext.request.userPrincipal.name} &nbsp; <small>${pageContext.request.userPrincipal.name}@visualpath.co.in</small> <i class="fa fa-check text-success" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title=" sharing with you"></i></h1>
                         <div class="dropdown pull-right">
-						
+
                             <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                 Friends
                                 <span class="caret"></span>
@@ -260,7 +260,7 @@
                                      <p>What are DevOps skills?</p>
                                     <p>Our respondents identified the top three skill areas for DevOps staff:</p>
                                     <p>1) Coding or scripting 2)Process re-engineering 3)Communicating and collaborating with others Extensive knowledge of software build cycles 4)Experience deploying code 5)Experience in software architecture 6)Familiarity with application programming 7)Database management 8)System design.</p>
-									<p>These skills all point to a growing recognition that software is not written in the old way anymore. Where software used to be written from scratch in a highly complex and lengthy process, creating new products is now often a matter of choosing open source components and stitching them together with code. The complexity of todays software lies less in the authoring, and more in ensuring that the new software will work across a diverse set of operating systems and platforms right away. Likewise, testing and deployment are now done much more frequently. That is, they can be more frequent,if developers communicate early and regularly with the operations team, and if ops people bring their knowledge of the production environment to design of testing and staging environments.</p>                                
+									<p>These skills all point to a growing recognition that software is not written in the old way anymore. Where software used to be written from scratch in a highly complex and lengthy process, creating new products is now often a matter of choosing open source components and stitching them together with code. The complexity of todays software lies less in the authoring, and more in ensuring that the new software will work across a diverse set of operating systems and platforms right away. Likewise, testing and deployment are now done much more frequently. That is, they can be more frequent,if developers communicate early and regularly with the operations team, and if ops people bring their knowledge of the production environment to design of testing and staging environments.</p>
                                     <p>Demand for people with DevOps skills is growing rapidly because businesses get great results from DevOps. Organizations using DevOps practices are overwhelmingly high-functioning: They deploy code up to 30 times more frequently than their competitors.</p>
                                 </div>
                             </div>

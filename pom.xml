@@ -28,13 +28,13 @@
             <artifactId>spring-web</artifactId>
             <version>${spring.version}</version>
         </dependency>
-	    
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
         </dependency>
-	    
+
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
@@ -106,7 +106,7 @@
 	     <artifactId>javax.servlet-api</artifactId>
 	     <version>3.1.0</version>
 	     <scope>provided</scope>
-	</dependency>		
+	</dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
@@ -128,7 +128,7 @@
 		    <groupId>net.spy</groupId>
 		    <artifactId>spymemcached</artifactId>
 		    <version>2.12.3</version>
-		</dependency>				
+		</dependency>
 		<dependency>
 		    <groupId>commons-io</groupId>
 		    <artifactId>commons-io</artifactId>
@@ -140,7 +140,7 @@
 	            <artifactId>spring-rabbit</artifactId>
 	            <version>1.7.1.RELEASE</version>
 	    </dependency>
-	
+
 	    <dependency>
 	            <groupId>com.rabbitmq</groupId>
 	            <artifactId>amqp-client</artifactId>
@@ -182,6 +182,11 @@
  		    <plugin>
  		        <groupId>org.jacoco</groupId>
  		        <artifactId>jacoco-maven-plugin</artifactId>
+            <configuration>
+                <forkCount>3</forkCount>
+                <reuseForks>true</reuseForks>
+                <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+            </configuration>
  		        <version>0.7.2.201409121644</version>
  		        <executions>
  		            <execution>
@@ -200,7 +205,7 @@
  		            </execution>
  		        </executions>
  		</plugin>
-		
+
         </plugins>
     </build>
 </project>

@@ -15,7 +15,6 @@
       apt:
         name: openjdk-8-jdk
         state: present
-        update_cache: yes
       when: ansible_distribution == 'Ubuntu' 
 
     - name: Download Tomcat Tar Ball/Binaries
